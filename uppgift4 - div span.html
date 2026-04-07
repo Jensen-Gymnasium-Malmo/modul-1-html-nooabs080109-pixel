@@ -1,29 +1,64 @@
-<!--
-Uppgift 4 - Tidningshemsida
-
-På sidan ska det finnas:
-    - Ett tidningsnamn högst upp
-    - Tre artiklar, var och en i sin egen <div>
-    - Varje artikel ska ha en header, en paragraf och en bild
-    - Varje artikel ska ha olika bakgrundsfärg (inline style)
-    - Varje artikel ska ha en bild som är relevant för texten
-    - Varje artikel ska ha minst ett ord i paragrafen som har en annan färg med hjälp av span-elementet
-    - Varje artikel ska ha massa text t så att man behöver skrolla (generera text med ChatGPT)
-    - Minst ett ord i en paragraf ska ha en annan färg med hjälp av span-elementet
-    - Länkar ska finnas högst upp på sidan som länkar till varje artikel
-    - Lägg till en a-tagg över varje div för artikeln och sätt id=”sektion1” etc….
-    - Se till att du kan klicka på de 3 länkarna för att hoppa till varje artikel
--->
-
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Anime Nyheter</title>
 </head>
 
 <body>
+
+    <h1>Anime Nyheter</h1>
+
+    <nav>
+        <a href="#sektion1">Attack on Titan</a> |
+        <a href="#sektion2">One Piece</a> |
+        <a href="#sektion3">Naruto</a>
+    </nav>
+
+    <hr>
+
+    <a id="sektion1"></a>
+    <div style="background-color: rgb(161, 115, 14); padding: 15px; margin-bottom: 20px;">
+        <h2>Attack on Titan</h2>
+        <p>
+            Attack on Titan är en av de mest omtalade anime-serierna genom tiderna. Serien utspelar sig i en mörk värld där mänskligheten lever innanför enorma murar för att skydda sig mot jättelika varelser som kallas titaner. Berättelsen följer Eren Yeager och hans vänner när de försöker förstå sanningen om världen och slå tillbaka mot hotet som förstört deras liv.
+            <span style="color: red;">Spänningen</span> i serien är nästan konstant, och varje avsnitt bygger vidare på mysterier, konflikter och känslomässiga val.
+            Många tittare uppskattar hur serien kombinerar action med djupa teman som frihet, krig, makt och moral. Karaktärerna utvecklas mycket genom berättelsen, och deras beslut känns ofta både svåra och realistiska.
+            Serien är också känd för sina oväntade vändningar, dramatiska avslöjanden och sitt starka soundtrack. Det gör att många fans blir helt fast redan efter några avsnitt.
+            Attack on Titan är inte bara en actionserie, utan också en berättelse som får publiken att tänka efter och ifrågasätta vem som egentligen har rätt eller fel.
+            Ju längre serien går, desto större och mer komplex blir världen, och det är just detta som gör den så minnesvärd och populär bland animefans världen över.
+        </p>
+        <img src="https://m.media-amazon.com/images/I/71oYp0Y7bxL._AC_UF1000,1000_QL80_.jpg" alt="Attack on Titan" width="300">
+    </div>
+
+    <a id="sektion2"></a>
+    <div style="background-color: lightblue; padding: 15px; margin-bottom: 20px;">
+        <h2>One Piece</h2>
+        <p>
+            One Piece är en av världens längsta och mest älskade anime-serier. Den handlar om Monkey D. Luffy, en ung pirat som drömmer om att hitta den legendariska skatten One Piece och bli piraternas kung. På sin resa samlar han ett färgstarkt gäng av vänner som alla har sina egna drömmar och mål.
+            Serien är fylld med <span style="color: blue;">äventyr</span>, humor, action och känslosamma ögonblick. Varje ö och plats som besättningen besöker känns unik och full av liv, vilket gör att världen i One Piece känns enorm och levande.
+            Många fans älskar serien för dess starka vänskapstema och för hur den blandar roliga stunder med allvarliga ämnen som frihet, orättvisa och att stå upp för det man tror på.
+            Karaktärerna är minnesvärda och utvecklas mycket över tid, vilket gör att tittarna verkligen bryr sig om vad som händer med dem.
+            En annan stor styrka i serien är hur skaparen planterar ledtrådar långt i förväg, vilket gör att senare händelser ofta känns väldigt genomtänkta och belönande.
+            One Piece har därför blivit mycket mer än bara en anime – för många är det en lång resa fylld av skratt, tårar och episka ögonblick.
+        </p>
+        <img src="https://static.wikia.nocookie.net/listofdeaths/images/6/6a/One_Piece_anime_poster.jpg/revision/latest?cb=20240126221549" alt="One Piece" width="300">
+    </div>
+
+    <a id="sektion3"></a>
+    <div style="background-color: lightcoral; padding: 15px; margin-bottom: 20px;">
+        <h2>Naruto</h2>
+        <p>
+            Naruto är en klassisk anime som handlar om Naruto Uzumaki, en ung ninja som drömmer om att bli Hokage – den starkaste och mest respekterade ninjan i sin by. Trots att han växer upp ensam och blir dömd av många omkring sig, ger han aldrig upp sin dröm.
+            Serien är känd för sina starka teman om <span style="color: orange;">vänskap</span>, hårt arbete och att aldrig ge upp även när livet känns svårt.
+            Under seriens gång får man följa Naruto och hans vänner genom träning, farliga uppdrag och stora strider mot mäktiga fiender.
+            Många tycker att Naruto är så uppskattad eftersom den inte bara har cool action, utan också mycket känsla. Flera karaktärer har sorgliga bakgrunder och utvecklas på sätt som gör att publiken verkligen förstår deras val och känslor.
+            Kampeneffekterna, specialteknikerna och rivaliteten mellan olika ninjor gör serien spännande, men det som verkligen får den att sticka ut är hur den visar att även någon som blir underskattad kan växa till något stort.
+            Naruto inspirerar många tittare genom sitt budskap om att tro på sig själv och fortsätta kämpa även när oddsen är emot en.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg" alt="Naruto" width="300">
+    </div>
 
 </body>
 
